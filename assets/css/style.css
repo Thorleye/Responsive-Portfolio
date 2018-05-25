@@ -15,6 +15,7 @@ body {
 /* area along the top */
 header {
     width:100%;
+    position: static;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff;
     padding: 16px;
@@ -99,15 +100,7 @@ li a:hover {
 p {
    padding: 8px;
 }
-/* not being used
-div.contact {
-    font-size: 12px;
-    padding: 5px;
-    border: 1px solid #777777;
-    border-width: thin;
-    
-}
-*/
+
 /* header used at the top of pages */
 h1 {
     color: #4aaaa5;
@@ -204,3 +197,5 @@ a {
 a:hover {
     background-color: #4aaaa5;
 }
+
+@media only screen and (max-width: 640px)
