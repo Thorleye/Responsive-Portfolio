@@ -204,7 +204,7 @@ a:hover {
 /* for laptops */
 @media only screen and (max-width: 980px) {
 
-    header { position: Static; width: 980px;   }
+    header { position: Static; width: 100%;   }
     nav { width: 95%; }
    .wrapper {width: 80%;}
    img {min-width: 270px;}
@@ -212,7 +212,7 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
     
-    header { position: Static; width: 770px;   }
+    header { position: Static; width: 100%;   }
     nav { width: 95%; }
     .wrapper {width: 80%;}
    .gallery .desc {width:100%; text-align: center;}
@@ -221,12 +221,11 @@ a:hover {
 
 @media only screen and (max-width: 640px) {
     
-    header { position: Static; width: 100%;  }
+    header { position: Static; width: 100%;   }
     #name {position:relative; float:left;}
-    nav { width: 99%; }
-   .wrapper {max-width: 640px; margin:auto;}
-   body {max-width: 640px}
+    nav { width: 100%; }
+   .wrapper {width: 100%; margin:auto; overflow: hidden;}
    .gallery .desc {width: 100%; text-align: center; margin:0; padding:0;}
-   img {max-width:580px;}
+   img {max-width:100%;}
    
 }
