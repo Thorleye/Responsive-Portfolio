@@ -216,7 +216,7 @@ a:hover {
     nav { width: 95%; }
     .wrapper {width: 80%;}
    .gallery .desc {width:100%; text-align: center;}
-    img {min-width:270px; max-width:600px;}
+    img { max-width:200px;}
 }
 
 @media only screen and (max-width: 640px) {
@@ -227,5 +227,6 @@ a:hover {
    .wrapper {width: 100%; margin:auto; overflow: hidden;}
    .gallery .desc {width: 100%; text-align: center; margin:0; padding:0;}
    img {max-width:100%;}
+   #pic {width:100%}
    
 }
